@@ -83,6 +83,12 @@ nav ul li a {
   text-decoration: none;
   color: #fdffff;
   font-size: 18px;
+  transition: 0.2s;
+}
+
+nav ul li a:hover {
+  color: #f05f40;
+  transition: 0.2s;
 }
 
 .nav-menu-icon {
@@ -221,6 +227,17 @@ hr {
 
 .contact i {
   padding: 0 12px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.contact a:hover {
+  color: #f05f40;
+  transition: 0.2s;
 }
 
 .contact p {
